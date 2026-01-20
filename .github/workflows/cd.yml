@@ -49,4 +49,4 @@ jobs:
         run: gcloud run deploy notely --image us-central1-docker.pkg.dev/notely-484822/notely-ar-repo/notely:v1 --region us-central1 --allow-unauthenticated --project notely-484822 --max-instances=4
       
       - name: Git diff
-        run: git giff
+        run: git diff
